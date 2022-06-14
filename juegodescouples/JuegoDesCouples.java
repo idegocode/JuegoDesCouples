@@ -8,13 +8,18 @@ package juegodescouples;
  *
  * @author diego
  */
+//clase principal
 public class JuegoDesCouples {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+/*se crea un objeto de tipo preguntas
+   instanciando la clase preguntas*/
+    Preguntas ObjPregunta1;
+     ObjPregunta1 = new Preguntas("primera pregunta","¿el texto corresponde con la figura?"); 
+        
     }
     
 }
